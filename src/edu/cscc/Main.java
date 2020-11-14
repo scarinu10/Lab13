@@ -5,11 +5,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Surname[] namelist = Census.loadCensusData(CENSUSDATAFNAME);
+        Surname[] nameList = Census.loadCensusData(CENSUSDATAFNAME);
 
-        if (namelist != null) {
+        if (nameList != null) {
             System.out.println("Rank\tName");
-            for (Surname name : namelist) {
+            for (Surname name : nameList) {
                 System.out.println(name.getRank() + "\t\t" + name.getName());
             }
         }

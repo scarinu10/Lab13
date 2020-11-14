@@ -6,7 +6,7 @@ public class Surname {
     private int count;
     private double proportion;
 
-    public Surname(String name, int rank, int count, double proportion) {
+    public  Surname(String name, int rank, int count, double proportion) {
         this.name = name;
         this.rank = rank;
         this.count = count;
